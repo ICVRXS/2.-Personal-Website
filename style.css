@@ -1,10 +1,21 @@
 /* header */
 
-.navbar-dark, .navbar-brand {
-    background-color: #ffe9a2;
+.bg-dark {
+ background-color: teal;
+}
+
+.navbar {
+    padding: 0px 15px 0px 0px;
+
+}
+
+.navbar-dark .navbar-brand {
     color: black;
+    background-color: #ffe9a2;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 /* body */
@@ -40,7 +51,11 @@ body {
 /* footer */
 
 footer {
-    background-color: #ffe9a2;
+    border-style: solid;
+    border: #ffe9a2;
+    border-top: 20px;
+    background-color:#343a40;
+    color:white;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
