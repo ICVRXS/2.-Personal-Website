@@ -1,12 +1,18 @@
+/* * {
+    margin-left: none;
+    margin-right: none;
+} */
+
 /* header */
 
 .navbar-dark, .navbar-brand {
+    background-color: #fcc204;
 
 }
-/* 
+
 .navbar-dark, .navbar-brand:hover {
     color: #fcc204
-} */
+}
 
 a, h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -24,3 +30,10 @@ p {
 }
 
 /* footer */
+
+footer {
+    background-color: #fcc204;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
