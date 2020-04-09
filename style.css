@@ -1,18 +1,13 @@
-/* * {
-    margin-left: none;
-    margin-right: none;
-} */
-
 /* header */
 
 .navbar-dark, .navbar-brand {
-    background-color: #fcc204;
-
+    background-color: #ffe9a2;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.navbar-dark, .navbar-brand:hover {
-    color: #fcc204
-}
+/* body */
 
 a, h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -22,18 +17,31 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/* body */
-
 #pageName {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffe9a2;
+}
+
+#bioPic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: lightslategray;
 }
 
 /* footer */
 
 footer {
-    background-color: #fcc204;
+    background-color: #ffe9a2;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
