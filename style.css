@@ -58,6 +58,7 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #ffe9a2;
+    border-top: lightslategray 80px;
 }
 
 #bioPic {
@@ -68,10 +69,11 @@ p {
 
 main {
     background-color: aliceblue;
+    border-bottom: lightslategray 50px;
 }
 
 body {
-    background-color: lightslategray;
+    background-color:#343a40;
 }
 
 /* footer */
