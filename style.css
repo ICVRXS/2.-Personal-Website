@@ -2,9 +2,10 @@
 
 .navbar {
     color: black;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
+
 }
+
 .navbar .container {
     padding: 0;
 }
@@ -69,11 +70,11 @@ p {
 
 main {
     background-color: aliceblue;
-    border-bottom: lightslategray 50px;
 }
 
+
 body {
-    background-color:#343a40;
+    background-color: lightslategray;
 }
 
 /* footer */
