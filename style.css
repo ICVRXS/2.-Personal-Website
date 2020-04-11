@@ -5,6 +5,9 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+.navbar .container {
+    padding: 0;
+}
 
 .navbar-brand {
     background-color: #ffe9a2;
