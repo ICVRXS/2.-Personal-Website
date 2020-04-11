@@ -3,7 +3,7 @@
 .navbar {
     color: black;
     padding: 0;
-
+    margin-bottom: 50px;
 }
 
 .navbar .container {
@@ -21,6 +21,10 @@
 
 .navbar-dark .navbar-brand:hover {
     color: #ffc400;
+}
+
+main .container {
+    margin-bottom: 30px;
 }
 
 @media (max-width:991px) {
@@ -59,7 +63,7 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #ffe9a2;
-    border-top: lightslategray 80px;
+    margin-bottom: 30px;
 }
 
 #bioPic {
@@ -86,4 +90,5 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 50px;
 }
