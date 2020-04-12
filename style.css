@@ -3,7 +3,6 @@
 .navbar {
     color: black;
     padding: 0;
-    margin-bottom: 50px;
 }
 
 .navbar .container {
@@ -21,10 +20,6 @@
 
 .navbar-dark .navbar-brand:hover {
     color: #ffc400;
-}
-
-main .container {
-    margin-bottom: 30px;
 }
 
 @media (max-width:991px) {
@@ -59,6 +54,11 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.mainBackground {
+    background-color: lightslategray;
+    padding: 50px;
+}
+
 #pageName {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -76,9 +76,15 @@ main {
     background-color: aliceblue;
 }
 
+/* main .container {
+    background-color: lightslategray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
 
 body {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
+    background-color: #343a40;
 }
 
 /* footer */
@@ -90,5 +96,4 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 50px;
 }
