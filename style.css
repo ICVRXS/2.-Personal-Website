@@ -22,21 +22,35 @@
     color: #ffc400;
 }
 
+.nav-item {
+    border-right: 1px solid lightslategray;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 .5rem;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
 @media (max-width:991px) {
 
+    .navbar .container, 
     .navbar .container-lg,
     .navbar-brand {
         display: block;
     }
 
     .navbar-brand {
+        text-align: center;
         margin-right: -1rem;
         margin-left: -1rem;
     }
 
     .navbar-nav {
-        text-align: center;
         flex-direction: row;
+        justify-content: center;
     }
 
     .navbar-nav .nav-link {
@@ -76,15 +90,19 @@ main {
     background-color: aliceblue;
 }
 
-/* main .container {
-    background-color: lightslategray;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
-
 body {
-    /* background-color: lightslategray; */
     background-color: #343a40;
+}
+
+@media (max-width:991px) {
+    
+    img {
+        margin-bottom: 30px;
+    }
+
+    h2, h3, p {
+        text-align: center;
+    }
 }
 
 /* footer */
