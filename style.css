@@ -98,6 +98,10 @@ body {
     
 }
 
+.list-group {
+    padding-bottom: 20px;
+}
+
 @media (max-width:991px) {
     
     img {
